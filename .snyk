@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-26T23:52:41.832Z'
+      electron > @electron/get > global-tunnel-ng > lodash:
+        patched: '2020-05-27T00:01:22.176Z'

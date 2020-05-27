@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "electron": "^6.1.0",
+    "electron": "^7.3.0",
     "lodash": "^4.17.15"
   },
   "devDependencies": {
